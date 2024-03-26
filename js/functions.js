@@ -18,11 +18,6 @@ function isPalindrome(string = '') {
   return newString === stringNormalize;
 }
 
-console.log(isPalindrome('топот'));
-console.log(isPalindrome('ДовОд'));
-console.log(isPalindrome('Кекс'));
-console.log(isPalindrome());
-
 function getNumbers(string = '') {
   const index = string.length - 1;
   let newString = '';
@@ -32,17 +27,4 @@ function getNumbers(string = '') {
   return newString;
 }
 
-console.log(getNumbers('2023 год'));
-console.log(getNumbers('ECMAScript 2022'));
-console.log(getNumbers('1 кефир, 0.5 батона'));
-console.log(getNumbers('агент 007'));
-console.log(getNumbers('а я томат'));
-
 const extractNumber = (string = '') => Math.abs(parseInt(string.replace(/\D+/g, ''), 10));
-
-console.log(extractNumber());
-console.log(extractNumber('2023 год'));
-console.log(extractNumber('ECMAScript 2022'));
-console.log(extractNumber('1 кефир, 0.5 батона'));
-console.log(extractNumber('агент 007'));
-console.log(extractNumber('а я томат'));
