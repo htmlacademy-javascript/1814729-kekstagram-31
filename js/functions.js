@@ -4,9 +4,9 @@ function isStringLengthValid(string = '', stringMaxLength = 1) {
   return compareStringLength;
 }
 
-console.log(isStringLengthValid('klwjxdwxdlkswnxowkojxdowjx', 25));
-console.log(isStringLengthValid('klwjxdwxdlkswnxowkojxdowjx', 2));
-console.log(isStringLengthValid('klwjxdwxdlkswnxowkojxdowjx', 200));
+// console.log(isStringLengthValid('klwjxdwxdlkswnxowkojxdowjx', 25));
+// console.log(isStringLengthValid('klwjxdwxdlkswnxowkojxdowjx', 2));
+// console.log(isStringLengthValid('klwjxdwxdlkswnxowkojxdowjx', 200));
 
 function isPalindrome(string = '') {
   const stringNormalize = string.toUpperCase().replaceAll(' ', '');
